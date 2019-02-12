@@ -1,0 +1,21 @@
+.navbar-brand {
+  color: #333;
+}
+
+a {
+  color: #aaa;
+  font-weight: 200;
+}
+
+.text {
+  font-size: 10px;
+  color: chartreuse;
+}
+
+.title {
+  font-family: "Permanent Marker", cursive;
+  color: yellow;
+}
+.nav-item {
+  margin-left: 2rem;
+}

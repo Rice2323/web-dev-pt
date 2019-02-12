@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+.card {
+  background-color: gray;
+  border: 1rem;
+  border-color: lightslategray;
+}
+.btn {
+  background-color: darkslategray;
+  color: #f0f0f0;
+}
+i,
+p,
+b,
+h4,
+h2 {
+  color: #f0f0f0;
+}
+label {
+  color: #808080;
+  margin-left: 5px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8rem;
+}
+
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul,
+li {
+  list-style-type: none;
+  color: #f0f0f0;
+}
