@@ -150,7 +150,7 @@ class Detail extends Component {
 
           <Row>
             <Col size="md-2">
-              <Link to="/">← Back to Bloggers</Link>
+              <Link to="/blogs">← Back to Bloggers</Link>
             </Col>
           </Row>
         </Container>
@@ -160,14 +160,16 @@ class Detail extends Component {
             {this.state.loadresponse.map((item, i) => (
               // console.log(item)
               <ListItem key={i}>
-                <span className="font-weight-bold">{item} </span>
+                <span className="font-weight-bold text-primary p-3">{item} </span>
                 <div>
                   <span className="font-italic">by </span>{" "}
                   <span className="p-1 text-uppercase font-weight-bold text-success ">
                     {this.state.userName[i]}{" "}
                   </span>
+                  <span className="text-primary p-1">
                   posted at
-                  <span className="text-danger p-2">
+                  </span>
+                  <span className="text-danger font-weight-bold p-2">
                     {moment(this.state.responseTime[i].date).format("LLL")}{" "}
                   </span>
                 </div>

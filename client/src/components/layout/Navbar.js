@@ -5,7 +5,7 @@ import "../Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-toggleable-md sticky-top" style= {{backgroundColor: "black">
+      <nav className="navbar navbar-toggleable-md sticky-top" style= {{backgroundColor: "black"}}>
         <div className="container">
           <button
             className="navbar-toggler navbar-toggler-right"
